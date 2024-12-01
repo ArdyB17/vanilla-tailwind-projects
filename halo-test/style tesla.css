@@ -1,0 +1,43 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.btn-selected {
+  border: 2px solid #4A90E2; /* Highlight color */
+  border-radius: 50%;
+  padding: 8px;
+  transition: transform 0.3s;
+}
+
+.btn-selected:hover {
+  transform: scale(1) !important;
+}
+
+#top-bar {
+  transition: transform 0.5s ease-in-out;
+}
+
+.visible-bar {
+  transform: translateY(0);
+}
+
+.hidden-bar {
+  transform: translateY(-100%);
+}
+
+.color-button.selected {
+  border: 2px solid #4A90E2; /* Highlight color */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out;
+}
+
+/* Modal Styles */
+#payment-modal {
+    backdrop-filter: blur(5px); /* Blur the background */
+}
