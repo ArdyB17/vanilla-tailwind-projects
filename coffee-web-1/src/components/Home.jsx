@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
@@ -18,7 +19,6 @@ const Home = () => {
   return (
     <section className="min-h-screen pt-16 sm:pt-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-r from-[#FFDCAB] to-[#AB6B2E]">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
-        
         {/* Left Content Section */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
